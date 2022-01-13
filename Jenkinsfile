@@ -9,12 +9,12 @@ pipeline {
 
   stages {
 
-    // stage('Checkout Source') {
+     // stage('Checkout Source') {
     //   steps {
     //     git 'https://github.com/justmeandopensource/playjenkins.git'
     //   }
     // }
-
+     
     stage('Build image') {
       steps{
         script {
