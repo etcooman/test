@@ -9,11 +9,11 @@ pipeline {
 
   stages {
 
-    stage('Checkout Source') {
-      steps {
-        git 'https://github.com/justmeandopensource/playjenkins.git'
-      }
-    }
+    // stage('Checkout Source') {
+    //   steps {
+    //     git 'https://github.com/justmeandopensource/playjenkins.git'
+    //   }
+    // }
 
     stage('Build image') {
       steps{
