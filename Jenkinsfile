@@ -4,12 +4,6 @@ pipeline {
     ansiColor('xterm')
   }
 
-//   agent {
-//     kubernetes {
-//       yamlFile 'builder.yaml'
-//     }
-//   }
-
   stages {
 
     stage('Kaniko Build & Push Image') {
