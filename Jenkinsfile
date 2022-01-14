@@ -4,11 +4,11 @@ pipeline {
     ansiColor('xterm')
   }
 
-  agent {
-    kubernetes {
-      yamlFile 'builder.yaml'
-    }
-  }
+//   agent {
+//     kubernetes {
+//       yamlFile 'builder.yaml'
+//     }
+//   }
 
   stages {
 
